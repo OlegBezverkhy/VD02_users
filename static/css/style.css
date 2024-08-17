@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('fon.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.content {
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.card_container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    height:800px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: lightblue;
+    margin: 10px;
+ }
+
+.user_photo {
+    padding: 10px;
+    transition: 1s;
+}
+
+.user_photo img{
+    width: 150px;
+    height: auto;
+}
+
+
+.user_photo img:hover{
+    width: 300px;
+    height: auto;
+    transition: 1s;
+}
+
+.info {
+    text-align: justify;
+    line-height: 1.5;
+    margin: 0 auto;
+    width: 300;
+}
+
+h2 {
+    padding:5px;
+}
+
+h2::first-letter {
+    color: red;
+    font-size: 30px;
+}
+
+.info {
+    padding: 10px;
+}
+
+
+footer {
+    font-size: 30px;
+    font-weight: 3;
+    padding: 20px;
+}
+footer::after{
+    content:"\00A9";
+}
